@@ -15,6 +15,7 @@ app.get('/user/:name', (req, res) => {
     res.send(`Hello, ${name}!.`);
 });
 
+
 // Start the server
 app.listen(port, () => {
   console.log(`Server is running at http://localhost:${port}`);
